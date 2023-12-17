@@ -5,7 +5,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
 global.video= "" ;
-global.devs = "923184474176"
+global.devs = "2349150212473"
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
 global.email="samsamsun789@gmail.com"
@@ -26,8 +26,8 @@ global.THUMB_IMAGE=process.env.THUMB_IMAGE||"https://telegra.ph/file/d5b1c3544fe
 
 
 
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,923184474176";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null,2349150212473";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2349150212473";
 
 module.exports = {
 
@@ -47,7 +47,7 @@ module.exports = {
   ownername:process.env.OWNER_NAME|| "It'x Suhail",
 
 
-  sessionName:process.env.SESSION_ID|| "",
+  sessionName:process.env.SESSION_ID|| "SESSION_09_11_12_17_DeucesWarpath",
   userImages:process.env.USER_IMAGES|| "",
   errorChat: process.env.ERROR_CHAT || "",
   warncount: process.env.WARN_COUNT || "3",
