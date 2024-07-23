@@ -5,10 +5,10 @@
 #     𝗠𝗨𝗟𝗧𝗜𝗗𝗘𝗩𝗜𝗖𝗘 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗨𝗦𝗘𝗥 𝗕𝗢𝗧        #
 #=============================================#
 # 
-#    * @project_name : Suhail-Md
-#    * @author : @SuhailTechInfo
-#    * @youtube : https://www.youtube.com/SuhailTechInfo
-#    * @description : Suhail-Md ,A Multi-functional whatsapp bot md.
+#    * @project_name : ES TEAMS-Md
+#    * @author : @EsTeamsTechInfo
+#    * @chann : https://whatsapp.com/channel/0029Vaj1vKSK5cDDT4tVvY1y
+#    * @description : ES TEAMS-MD ,A Multi-functional whatsapp bot md.
 #    * @version 1.3.9
 
 

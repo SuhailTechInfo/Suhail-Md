@@ -1,15 +1,15 @@
 {
-  "name": "suhail-md@1.3.9",
-  "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/SuhailTechInfo",
-  "logo": "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
-  "success_url": "/suhail/",
+  "name": "es teams-md@1.3.9",
+  "description": "I am Es Teams-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/SuhailTechInfo",
+  "logo": "https://telegra.ph/file/91bd2bf4417f348debf70.jpg",
+  "keywords": ["whatsappbot", "esteamsMd", "es teams Md bot", "Es Teams-Md", "EsTeamsMdWhatsaooBot", "EsTeamsWaBot","ESTEAMS MD","Es Teams Md Whatsapp Bot","multi device"],
+  "success_url": "/esteams/",
   "app_url": "/qr/",
   "stack":"container",
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",    
-      "value": "Suhail Ser",
+      "value": "ES TEAMS",
       "required" :true
     },   
      
@@ -27,7 +27,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
-      "value": "sᴜʜᴀɪʟ-ᴍᴅ"
+      "value": "es teams"
     }, 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -93,7 +93,7 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "Suhail Md",
+      "value": "Es Teams",
       "required": false 
     },
     "PACK_AUTHER": {
