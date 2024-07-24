@@ -4,7 +4,10 @@ on:
   push:
     branches:
       - main
-      
+  pull_request:
+    branches:
+      - main
+
 jobs:
   build:
 
@@ -15,7 +18,7 @@ jobs:
         node-version: [20.x]
 
     steps:
-    - name: Checkout Suhail-Md repository
+    - name: Checkout repository
       uses: actions/checkout@v3
 
     - name: Set up Node.js
@@ -23,14 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Install libraries
+    - name: Install dependencies
       run: npm install
 
-    - name: Start Suhail-Md
-    
-      env:
-          OWNER_NAME: 
-          OWNER_NUMBER:
-          SESSION_ID:
-
+    - name: Start application
       run: npm start
