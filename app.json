@@ -1,5 +1,5 @@
 {
-  "name": "suhail-md@1.3.7",
+  "name": "suhail-md@1.3.9",
   "description": "I am Suhail-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/SuhailTechInfo",
   "logo": "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true",
   "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
@@ -13,13 +13,13 @@
       "required" :true
     },   
      
-    "WELCOME": {
+    "CAN_WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
       "value": "true",
       "required" :false
     },
      
-    "GOODBYE": {
+    "CAN_GOODBYE": {
       "description": "put 'false' or 'true' to enable & disable GOODBYE ",
       "value": "false",
       "required" :false
@@ -89,7 +89,7 @@
     },
     "MODE": {
       "description": "Worktype of your bot. Use public/private, if private then only bot number can use it. If public then everyone can use it.",
-      "value": "private"
+      "value": "public"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",

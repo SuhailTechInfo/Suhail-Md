@@ -1,6 +1,6 @@
 {
    "name": "suhail-md",
-   "version": "1.3.7",
+   "version": "1.3.9",
    "description": "Multi device whatsapp bot.",
    "main": "index.js",
    "type": "commonjs",  
@@ -60,7 +60,7 @@
              "translatte": "^3.0.1",
              "util": "^0.12.4",
              "wa-sticker-formatter": "^4.3.2",
-             "youtubei.js": "9.4.0",
+             "youtubei.js": "latest",
              "ytdl-secktor": "npm:ytdl-core@latest",
              "link-preview-js": "^3.0.0",
             "puppeteer": "latest"
