@@ -1,0 +1,36 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+      
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+    - name: Checkout Suhail-Md repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install libraries
+      run: npm install
+
+    - name: Start Suhail-Md
+    
+      env:
+          OWNER_NAME: 
+          OWNER_NUMBER:
+          SESSION_ID:
+
+      run: npm start
