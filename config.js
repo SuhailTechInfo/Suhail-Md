@@ -56,54 +56,26 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
-
-global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel.app" // expires
-global.scan = "https://suhail-md-vtsf.onrender.com";
-
-
-global.SESSION_ID = process.env.SESSION_ID ||  ""  // PUT your SESSION_ID 
-
-
+global.read_status_from com" /
 module.exports = {
-
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
-
-  HANDLERS: process.env.PREFIX  || ".",
-  BRANCH  : process.env.BRANCH  || "main",
-  VERSION : process.env.VERSION || "1.3.8",
-  caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
- 
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "Suhail",
-
-
-  errorChat : process.env.ERROR_CHAT || "",
-  KOYEB_API : process.env.KOYEB_API  || "false",
-
-  REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
-  HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
-  antilink_values:process.env.ANTILINK_VALUES|| "all",
-  HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
-
-
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+;
 
 
 
-};
+*QR HAS BEEN SCANNED SUCCESSFULY* ✅
+
+*Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
+https://github.com/SuhailTechInfo/Suhail-Md
+
+*Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
+https://t.me/suhail_md0
+https://whatsapp.com/channel/0029VadHtwWFCCoaogdKsh0B
 
 
+*Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
+https://youtube.com/SuhailTechInfo
 
-global.ELEVENLAB_API_KEY = process.env.ELEVENLAB_API_KEY || "";
-global.aitts_Voice_Id = process.env.AITTS_ID|| "37";
-
-
+*SUHAIL-MD--WHATTSAPP-BOT* 🥀
 
 
 
